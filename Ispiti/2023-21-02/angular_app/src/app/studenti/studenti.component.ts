@@ -37,12 +37,12 @@ export class StudentiComponent implements OnInit {
   ucitajPodatke(){
     if(this.filter_ime_prezime){
       return this.studentPodaci.filter((x:any)=>(x.ime + " " +  x.prezime).startsWith(this.ime_prezime) ||
-        (x.prezime + " " +  x.ime).startsWith(this.ime_prezime) && x.isDeleted!=true);
+        (x.prezime + " " +  x.ime).startsWith(this.ime_prezime) && x.isDeleted==false);
     }
     if(this.filter_opstina){
-      return this.studentPodaci.filter((x:any)=>(x.opstina_rodjenja.description).startsWith(this.opstina) && x.isDeleted!=true);
+      return this.studentPodaci.filter((x:any)=>(x.opstina_rodjenja.description).startsWith(this.opstina) && x.isDeleted==false);
     }
-    return this.studentPodaci.filter((x:any)=>x.isDeleted!=true);
+    return this.studentPodaci.filter((x:any)=>x.isDeleted==false);
   }
   novi_student:any;
 
@@ -77,7 +77,15 @@ export class StudentiComponent implements OnInit {
     this.odabrani_student=null;
   }
 
+
+
   otvoriMaticnu(student_paramtar_id:number) {
     this.router.navigate(["student-maticnaknjiga", student_paramtar_id])
+  }
+
+  izbrisiStudent(id:number) {
+    this.httpKlijent.delete(MojConfig.adresa_servera+"/Student/Izbrisi?student_id="+id, MojConfig.http_opcije()).subscribe((x:any)=>{
+      this.getStudent();
+    });
   }
 }

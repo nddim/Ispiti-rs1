@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1OCBHq5gvY8ohWcCO7zUgzpTM8artwkdRxG6EqCmEuEJecnB4x+P69jjxhNGINz7DRhG+Mb5Svdp0x7gKpTasQ==",
+  "dgSpecHash": "Qf8+UxzXiWdF/Le+lwqwfRp9GzGtesBIAHHR7KJAE2rje5KMdFRgdoqBi4HEZEvTuHKpkQZUkp9wy9Y40DbzgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nedim\\Desktop\\5. Semestar\\RS1\\ispiti\\todo\\5\\rs1-2023-02-21-ispitni-zadaci\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
+  "projectFilePath": "C:\\Users\\nedim\\Desktop\\5. Semestar\\Git\\rs1\\Ispiti\\2023-21-02\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nedim\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\nedim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

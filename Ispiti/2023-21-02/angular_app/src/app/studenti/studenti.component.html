@@ -30,7 +30,7 @@
     <td>{{s.opstina_rodjenja!=null?s.opstina_rodjenja.description:""}}</td>
     <td>{{s.created_time|date}}</td>
     <td>
-      <button (click)="s.isDeleted=true" >Obrisi</button>
+      <button (click)="izbrisiStudent(s.id)" >Obrisi</button>
       <button (click)="odabrani_student=s">Uredi</button>
       <button (click)="otvoriMaticnu(s.id)">Maticna knjiga</button>
     </td>

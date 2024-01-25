@@ -68,5 +68,17 @@ namespace FIT_Api_Examples.Modul2.Controllers
             }
             return Ok(student);
         }
+        [HttpDelete]
+        public ActionResult Izbrisi(int student_id)
+        {
+            if (!HttpContext.GetLoginInfo().isLogiran)
+                return BadRequest("nije logiran");
+            var student = _dbContext.Student.Find(student_id);
+            if (student == null)
+                return BadRequest();
+            student.IsDeleted=true;
+            _dbContext.SaveChanges();
+            return Ok();
+        }
     }
 }

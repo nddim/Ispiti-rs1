@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nedim\\Desktop\\5. Semestar\\RS1\\ispiti\\todo\\5\\rs1-2023-02-21-ispitni-zadaci\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj": {}
+    "C:\\Users\\nedim\\Desktop\\5. Semestar\\Git\\rs1\\Ispiti\\2023-21-02\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nedim\\Desktop\\5. Semestar\\RS1\\ispiti\\todo\\5\\rs1-2023-02-21-ispitni-zadaci\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj": {
+    "C:\\Users\\nedim\\Desktop\\5. Semestar\\Git\\rs1\\Ispiti\\2023-21-02\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nedim\\Desktop\\5. Semestar\\RS1\\ispiti\\todo\\5\\rs1-2023-02-21-ispitni-zadaci\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
+        "projectUniqueName": "C:\\Users\\nedim\\Desktop\\5. Semestar\\Git\\rs1\\Ispiti\\2023-21-02\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
         "projectName": "FIT_Api_Examples",
-        "projectPath": "C:\\Users\\nedim\\Desktop\\5. Semestar\\RS1\\ispiti\\todo\\5\\rs1-2023-02-21-ispitni-zadaci\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
+        "projectPath": "C:\\Users\\nedim\\Desktop\\5. Semestar\\Git\\rs1\\Ispiti\\2023-21-02\\webapi\\FIT_Api_Examples\\FIT_Api_Examples.csproj",
         "packagesPath": "C:\\Users\\nedim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nedim\\Desktop\\5. Semestar\\RS1\\ispiti\\todo\\5\\rs1-2023-02-21-ispitni-zadaci\\webapi\\FIT_Api_Examples\\obj\\",
+        "outputPath": "C:\\Users\\nedim\\Desktop\\5. Semestar\\Git\\rs1\\Ispiti\\2023-21-02\\webapi\\FIT_Api_Examples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nedim\\AppData\\Roaming\\NuGet\\NuGet.Config",
